@@ -2,11 +2,10 @@ import os
 import subprocess
 
 
-def profile(name):
+def profile(name, password):
     gold = 100
     progress = 0
     id1 = 0
-    password = input("Enter Password: ")
 
     while True:
         try:

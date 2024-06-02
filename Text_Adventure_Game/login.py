@@ -4,13 +4,25 @@ import subprocess
 
 
 def newPlayer():
+
     from profile import profile
-    subprocess.run('cls', shell=True)
-    print("---------------------------------------\n"
-          "             Sign-up\n"
-          "---------------------------------------")
-    name = input("Enter your name: ")
-    n = profile(name)
+    while True:
+        subprocess.run('cls', shell=True)
+        print("---------------------------------------\n"
+              "             Sign-up\n"
+              "---------------------------------------")
+        name = input("Enter your name: ")
+        if name == "":
+            msg= input("Please Enter name!")
+
+        else:
+            password = input("Enter Password: ")
+            if password == "":
+                msg = input("Please enter password!")
+            else:
+                break
+
+    n = profile(name, password)
     return n
 
 
