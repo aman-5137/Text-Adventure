@@ -11,8 +11,7 @@ def profile(name):
     while True:
         try:
             id1 += 1
-            path = (f"E:\\Python Codes\\PROJECTS\\"
-                    f"Text_Adventure_Game\\Players"
+            path = (f"Players"
                     f"\\playerRecord{id1}.txt")
 
             list1 = [name, id1, gold, progress, password]
