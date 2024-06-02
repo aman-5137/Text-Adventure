@@ -21,10 +21,10 @@ def existingPlayer():
             print("---------------------------------------\n"
                   "             Sign-in\n"
                   "---------------------------------------")
-            id1 = int(input("Enter your id: "))
+            id1 = (
+                int(input("Enter your id: ")))
 
-            path = (f"E:\\Python Codes\\PROJECTS\\"
-                    f"Text_Adventure_Game\\Players"
+            path = ("Players"
                     f"\\playerRecord{id1}.txt")
             if os.path.exists(path):
                 with open(f"Players\\playerRecord{id1}.txt", 'r') as file:

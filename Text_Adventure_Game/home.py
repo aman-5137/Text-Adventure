@@ -43,8 +43,7 @@ def home(n):
                     from textAdventure import textAdventure
                     textAdventure(n)
                 case 2:
-                    path = (f"E:\\Python Codes\\PROJECTS\\"
-                            f"Text_Adventure_Game\\Players"
+                    path = ("Players"
                             f"\\playerRecord{n}.txt")
                     if os.path.exists(path):
                         with open(f"Players\\playerRecord{n}.txt", 'r') as file:

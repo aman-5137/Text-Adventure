@@ -2,6 +2,7 @@ import subprocess
 
 from login import login
 
+
 if __name__ == '__main__':
     while True:
         subprocess.run('cls', shell=True)
