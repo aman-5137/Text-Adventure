@@ -8,7 +8,7 @@ if __name__ == '__main__':
         subprocess.run('cls', shell=True)
         input("----------------------------------------\n"
               "         TEXT ADVENTURE GAME\n"
-              "----------------------------------------lvtmokrwvj\n"
+              "----------------------------------------\n"
               "Hit enter to continue...")
         subprocess.run('cls', shell=True)
         from home import home
