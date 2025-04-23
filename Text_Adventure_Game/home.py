@@ -19,7 +19,7 @@ def home(n):
         while True:
             try:
                 subprocess.run('cls', shell=True)
-                print("---------------------------------------------------")
+                print("-----------------------------------------------")
                 print("         WELCOME TO TEXT ADVENTURE GAME")
                 print("---------------------------------------------------")
                 option1 = int(input("1. Start Game"
