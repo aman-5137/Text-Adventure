@@ -6,7 +6,7 @@ import subprocess
 def home(n):
     from time import sleep
     bn = input("----------------------------------------\n"
-               "Hit Enter to deepesh...")
+               "Hit Enter to continue...")
     print("----------------------------------------\n"
           "              Loading", end="")
     for i in range(3):
